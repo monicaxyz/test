@@ -1,0 +1,11 @@
+{
+  "name": "test",
+  "private": true,
+  "dependencies": {
+    "puppeteer": "1.2.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "CI=1 node index.js"
+  }
+}
